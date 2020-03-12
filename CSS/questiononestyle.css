@@ -1,0 +1,34 @@
+body{
+    background-color: #bdc3c7;
+}
+.hone{
+    color: #9b59b6;
+}
+h2{
+    color: orange;
+}
+li{
+    color: #0000FF;
+}
+p{
+    background-color: yellow;
+}
+input{
+    border: red 3px solid;
+}
+.hello{
+    background-color: white;
+}
+#special{
+    border: rgb(0, 0,200) 2px solid;
+}
+div p{
+    font-size: 25px;
+}
+#pone{
+    border: white 5px solid;
+}
+#emp{
+    color: white;
+    font-size: 20px;
+}
