@@ -1,0 +1,27 @@
+.container{
+    display: flex;
+    background-color:thistle;
+    height: 80vh;
+    width: 90vw;
+    margin-left: 6vh;
+    margin-top: 6vw;
+}
+.container div{
+    background-color: cyan;
+    margin-left: 30px;
+    display: flex;
+    height: 200px;
+    margin-top: 150px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+}
+.container div > a{
+    text-decoration: none;
+
+}
+.container div:hover{
+ transform: scale(1.2)
+}
