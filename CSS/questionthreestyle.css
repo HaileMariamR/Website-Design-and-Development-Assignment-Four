@@ -155,7 +155,7 @@ h1{
     padding-left: 200px;
     margin-left: 200px;
 }
-
+    /* # Flag of somalia */
 .container_somalia{
     width: 400px;
     height: 400px;
@@ -170,6 +170,7 @@ h1{
     padding-top: 70px;
 }
 
+/* Flag of sweden */
 .container_sweden{
     background-color:rgb(60,60,170);
     width: 500px;
@@ -191,19 +192,20 @@ h1{
     margin-left: 150px;
    
 }
+/* Flag of panama */
 .container_panama{
     width: 600px;
     height: 400px;
     margin-left: 400px;
+    position: absolute;
     
-    
+        border: 1px solid gray;
 }
 .container_panama div{
     width: 300px;
     height: 200px;
     float: left;
     display: flex;
-
     align-items: center;
     justify-content: center;
     
@@ -238,4 +240,252 @@ h1{
     position: relative;
     right: 0;
     top: 0;
+}
+
+/* Flag of chile */
+.container_chile{
+    border: 1px solid gray;
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+    margin-top: 500px;
+    position: absolute;
+    margin-left: 400px;
+  
+}
+
+.container_chile #star_container{
+    background-color: darkblue;
+    font-size: 140px;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container_chile #white_container{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.container_chile #red_container{
+    background-color: rgb(240,50,50);
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    bottom: 0;
+}
+
+ /* Flag of  Greece */
+
+.greece_container{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    margin-left: 400px;
+    background-color: salmon;
+    margin-top: 1000px;
+    border: 1px solid gray;
+}
+.main_upper_part_greece{
+    background-color: rebeccapurple;
+    width: 600px;
+    height: 210px;
+    position: absolute;
+}
+
+.cross_container{
+    width: 250px;
+    height: 210px;
+    background-color: white;
+    position: absolute;
+    left: 0;
+}
+.cross_container div{
+    width: 100px;
+    height: 85px;
+    background-color:cornflowerblue;
+    
+}
+.cross_container #top_cross{
+    position: absolute;
+    left: 0;
+    
+}
+.cross_container #right_cross{
+    position: absolute;
+    right: 0;
+  
+
+}
+.cross_container #left_cross{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.cross_container #bottom_cross{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+#right_part{
+   
+    position: absolute;
+    right: 0;
+    
+
+}
+#right_part div{
+        width: 350px;
+        height: 42px;
+}
+ #blue_div{
+    background-color: cornflowerblue;
+}
+ #white_div{
+    background-color: white;
+
+}
+.main_bottom_part_grceece div{
+        height: 42px;
+        width: 600px;
+
+}
+.main_bottom_part_grceece {
+    width: 600px;
+    height: 190px;
+    bottom: 0;
+    position: absolute;
+    background-color: white;
+}
+
+/* <!-- Flag of Norway --> */
+
+
+.container_norway{
+    border:1px solid gray;
+    width: 600px;
+    height: 400px;
+    background-color: darkblue;
+    position: absolute;
+    top: 4500px;
+    margin-left: 300px;
+
+}
+#first_left_div{
+    background-color: rgb(240,50,50);
+    height: 150px;
+    width: 150px;
+    border-right: 30px solid white;
+    position: absolute;
+    left: 0;
+    border-bottom: 30px solid white;
+
+
+}
+#second_right_div{
+    background-color: rgb(240,50,50);
+    height: 150px;
+    width: 320px;
+    border-left: 30px solid white;
+    position: absolute;
+    right: 0;
+    border-bottom: 30px solid white;
+
+
+}
+#third_left_div{
+    background-color: rgb(240,50,50);
+    height: 150px;
+    width: 150px;
+    border-right: 30px solid white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 30px solid white;
+
+}
+
+#fourth_right_div{
+    background-color: rgb(240,50,50);
+    height: 150px;
+    width: 320px;
+    border-left: 30px solid white;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    border-top: 30px solid white;
+
+
+}
+/* Flag of the United Arab Emirates */
+
+.container_arab{
+    border: 1px solid gray;
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    background-color: rgb(60,60,170);
+    margin-top: 2000px;
+    margin-left: 300px;
+
+}
+.container_arab #sub-c div{
+    height: 133px;
+    width: 400px;
+
+}
+
+.container_arab #sub-c{
+    position: relative;
+    margin-top: -400px;
+    margin-left: 200px;
+}
+
+.red_arab_co{
+    height: 400px;
+    width: 200px;
+    background-color: red;
+}
+#one{
+    background-color: green;
+}
+#two{
+    background-color: white;
+}
+#three{
+    background-color: black;
+}
+/* Flag of Switzerland */
+.container_swiz{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    margin-top: 2600px;
+    margin-left: 300px;
+    background-color: red;
+}
+#vertical{
+    width: 100px;
+    height: 300px;
+    background-color: white;
+    position: absolute;;
+    left: 150px;
+    top: 50px;
+
+}
+#horizontal{
+    width: 300px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 150px;
+    left: 50px;
 }
