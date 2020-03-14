@@ -1,0 +1,52 @@
+
+/* America */
+
+
+.red-line{
+    background-color: red;
+    height: 11px;
+    width: 500px;
+    margin-top: ;
+}
+.white-line{
+    background-color: white;
+    height: 11px;
+    width: 500px;
+}
+.container{
+    display: flex;
+    margin-left: 300px;
+}
+.stars p{
+    color: white;
+    margin-left: 37px;
+    font-size: 20px;
+    
+}
+.stars{
+    background-color: blue;
+    margin-top: 25px;
+    width: 200px;
+    height: 184px;
+   
+}
+
+.container-two{
+    margin-top: -10px;
+    margin-left: 300px;
+
+}
+.container-two div {
+    width: 700px;
+}
+
+
+
+
+/* Congo */
+.middle{
+    background-color: red;
+    transform: rotate(85deg);
+    height: 200px;
+    width: 200px;
+}
