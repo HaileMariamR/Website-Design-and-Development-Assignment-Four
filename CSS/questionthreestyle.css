@@ -1,4 +1,9 @@
 
+h1{
+    text-align: center;
+}
+
+
 /* America */
 
 
@@ -43,10 +48,109 @@
 
 
 
-/* Congo */
-.middle{
-    background-color: red;
-    transform: rotate(85deg);
+/* South-Africa */
+
+
+.container-for-left-bottom{
+    width: 400px;
     height: 200px;
-    width: 200px;
+    background: linear-gradient(150deg ,black 30%,yellow 30% 40%,green 40% 70%,white 70% 80%, blue 80% 110%);
+}
+
+.container-for-left-upper{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(-330deg ,black 30%,yellow 30% 40%,green 40% 70%,white 70% 80%, rgb(240,50,50) 80% 110%);
+}
+.south-africa{
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+}
+
+.main_south_africa{
+   
+    padding: 30px;
+    display:flex;
+    width: 80%;
+    margin-left: 270px;
+
+}
+.right_part_south{
+    background-color: red;
+    height: 400px;
+    width: 400px;
+    
+    margin-top: 39px;
+}
+.b1{
+    height: 87px;
+    background-color: rgb(240,50,50);
+    border-bottom: 43px solid white;
+}
+.b2{
+    height: 144px;
+    background-color: green;
+    border-bottom: 43px solid white;
+}
+.b3{
+    height: 87px;
+    background-color: blue;
+
+}
+
+/* Flag of the Republic of the Congo */
+.Main_container_Congo div{
+    background: linear-gradient(137deg , green 40%,yellow 40% 60%, red 40% 70%);
+    height: 400px;
+    width: 650px;
+    margin-left: 60px;
+
+}
+
+.Main_container_Congo {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Flag of Kuwait */
+
+
+
+.left_part_kuwait{
+       height: 100px;
+        border-top: 100px solid transparent;
+        border-bottom: 100px solid transparent;
+        border-left: 70px solid black;
+        width: 0;
+        float: right;
+        
+        margin-right: 830px;
+}
+.right_part_kuwait{
+    background-color: blanchedalmond;
+    width: 400px;
+    height: 300px;
+    margin-left: 370px;
+    
+}
+.right_part_kuwait #h{
+        background-color: green;
+        height: 100px;
+        width: 400px;
+}
+.right_part_kuwait #h2{
+    background-color: white;
+    height: 100px;
+    width: 400px;
+}
+.right_part_kuwait #h3{
+    background-color: rgb(240,50,50);
+    height: 100px;
+    width: 400px;
+}
+.container_kuwait{
+    padding-left: 200px;
 }
