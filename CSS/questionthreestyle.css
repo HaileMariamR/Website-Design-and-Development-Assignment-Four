@@ -1,26 +1,28 @@
+body{
+    background-color: cornsilk;
 
-h1{
-    text-align: center;
 }
 
 
-/* America */
 
 
+
+/* American Flag */
 .red-line{
     background-color: red;
     height: 11px;
-    width: 500px;
+    width: 400px;
     margin-top: ;
 }
 .white-line{
     background-color: white;
     height: 11px;
-    width: 500px;
+    width: 400px;
 }
 .container{
     display: flex;
-    margin-left: 300px;
+    margin-top: 100px;
+
 }
 .stars p{
     color: white;
@@ -38,18 +40,69 @@ h1{
 
 .container-two{
     margin-top: -10px;
-    margin-left: 300px;
+    
 
 }
 .container-two div {
-    width: 700px;
+    width: 600px;
+}
+/* :end */
+
+/* Flag of panama */
+.container_panama{
+    right: 0;
+    top: 0;
+    width: 600px;
+    height: 400px;
+    margin-top: 80px;
+    position: absolute;
+    
+        border: 1px solid gray;
+}
+.container_panama div{
+    width: 300px;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.container_panama #first_star{
+    font-size: 100px;
+    color: royalblue;
+    position: relative;
+    left: 0;
+   
+    top: 0;
+}
+.container_panama #red_star{
+    font-size: 100px;
+    color: red;
+    right: 0;
+    bottom: 0;
+    position: relative;
+   
+    
+}
+.container_panama #second_part{
+    background-color: red;
+    position: relative;
+    left: 0;
+    bottom: 0;
 }
 
+.container_panama #third_part{
+    background-color: darkblue;
+    position: relative;
+    right: 0;
+    top: 0;
+}
 
+/* :end */
 
-
-/* South-Africa */
-
+/* Flag of southAfrica */
 
 .container-for-left-bottom{
     width: 400px;
@@ -98,13 +151,14 @@ h1{
     background-color: blue;
 
 }
+/* :end */
+/* Flag of Congo */
 
-/* Flag of the Republic of the Congo */
 .Main_container_Congo div{
     background: linear-gradient(137deg , green 40%,yellow 40% 60%, red 40% 70%);
     height: 400px;
-    width: 650px;
-    margin-left: 60px;
+    width: 600px;
+    margin-left: px;
 
 }
 
@@ -113,62 +167,10 @@ h1{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-left: -700px;
 }
 
-/* Flag of Kuwait */
-
-
-
-.left_part_kuwait{
-       height: 100px;
-        border-top: 100px solid transparent;
-        border-bottom: 100px solid transparent;
-        border-left: 70px solid black;
-        width: 0;
-        float: right;
-        
-        margin-right: 830px;
-}
-.right_part_kuwait{
-    background-color: blanchedalmond;
-    width: 400px;
-    height: 300px;
-    margin-left: 370px;
-    
-}
-.right_part_kuwait #h{
-        background-color: green;
-        height: 100px;
-        width: 400px;
-}
-.right_part_kuwait #h2{
-    background-color: white;
-    height: 100px;
-    width: 400px;
-}
-.right_part_kuwait #h3{
-    background-color: rgb(240,50,50);
-    height: 100px;
-    width: 400px;
-}
-.container_kuwait{
-    padding-left: 200px;
-    margin-left: 200px;
-}
-    /* # Flag of somalia */
-.container_somalia{
-    width: 400px;
-    height: 400px;
-    margin-left: 400px;
-    background-color: lightblue;
-    
-}
-.container_somalia div{
-    font-size: 200px;
-    color: white;
-    margin-left: 120px;
-    padding-top: 70px;
-}
+/* :end */
 
 /* Flag of sweden */
 .container_sweden{
@@ -176,6 +178,10 @@ h1{
     width: 500px;
     height: 400px;
     margin-left: 400px;
+    position: absolute;
+    right: 0;
+    margin-top: -430px;
+    margin-right: 30px;
 
 }
 .container_sweden #vertical-line{
@@ -192,98 +198,9 @@ h1{
     margin-left: 150px;
    
 }
-/* Flag of panama */
-.container_panama{
-    width: 600px;
-    height: 400px;
-    margin-left: 400px;
-    position: absolute;
-    
-        border: 1px solid gray;
-}
-.container_panama div{
-    width: 300px;
-    height: 200px;
-    float: left;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
+/* :end */
 
-}
-.container_panama #first_star{
-    font-size: 100px;
-    color: royalblue;
-    position: relative;
-    left: 0;
-   
-    top: 0;
-}
-.container_panama #red_star{
-    font-size: 100px;
-    color: red;
-    right: 0;
-    bottom: 0;
-    position: relative;
-   
-    
-}
-.container_panama #second_part{
-    background-color: red;
-    position: relative;
-    left: 0;
-    bottom: 0;
-}
-
-.container_panama #third_part{
-    background-color: darkblue;
-    position: relative;
-    right: 0;
-    top: 0;
-}
-
-/* Flag of chile */
-.container_chile{
-    border: 1px solid gray;
-    width: 600px;
-    height: 400px;
-    background-color: greenyellow;
-    margin-top: 500px;
-    position: absolute;
-    margin-left: 400px;
-  
-}
-
-.container_chile #star_container{
-    background-color: darkblue;
-    font-size: 140px;
-    color: white;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: absolute;
-    left: 0;
-    top: 0;
-}
-.container_chile #white_container{
-    background-color: white;
-    height: 200px;
-    width: 400px;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-.container_chile #red_container{
-    background-color: rgb(240,50,50);
-    position: absolute;
-    width: 600px;
-    height: 200px;
-    bottom: 0;
-}
-
- /* Flag of  Greece */
+/* Flag of  Greece */
 
 .greece_container{
     width: 600px;
@@ -291,7 +208,7 @@ h1{
     position: absolute;
     margin-left: 400px;
     background-color: salmon;
-    margin-top: 1000px;
+    
     border: 1px solid gray;
 }
 .main_upper_part_greece{
@@ -366,6 +283,8 @@ h1{
     background-color: white;
 }
 
+/* :end */
+
 /* <!-- Flag of Norway --> */
 
 
@@ -375,8 +294,9 @@ h1{
     height: 400px;
     background-color: darkblue;
     position: absolute;
-    top: 4500px;
-    margin-left: 300px;
+    left: 0;
+    
+  
 
 }
 #first_left_div{
@@ -425,6 +345,8 @@ h1{
 
 
 }
+/* :end */
+
 /* Flag of the United Arab Emirates */
 
 .container_arab{
@@ -433,8 +355,8 @@ h1{
     height: 400px;
     position: absolute;
     background-color: rgb(60,60,170);
-    margin-top: 2000px;
-    margin-left: 300px;
+    
+    margin-left: 700px;
 
 }
 .container_arab #sub-c div{
@@ -463,13 +385,16 @@ h1{
 #three{
     background-color: black;
 }
+/* :end */
+
+
 /* Flag of Switzerland */
 .container_swiz{
     width: 400px;
     height: 400px;
     position: absolute;
-    margin-top: 2600px;
-    margin-left: 300px;
+    
+    
     background-color: red;
 }
 #vertical{
@@ -489,3 +414,110 @@ h1{
     top: 150px;
     left: 50px;
 }
+/* :end */
+
+
+/* Flag of chile */
+.container_chile{
+    border: 1px solid gray;
+    width: 600px;
+    height: 400px;
+    background-color: greenyellow;
+    margin-top: ;
+    position: absolute;
+    margin-left:700px;
+  
+}
+
+.container_chile #star_container{
+    background-color: darkblue;
+    font-size: 140px;
+    color: white;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.container_chile #white_container{
+    background-color: white;
+    height: 200px;
+    width: 400px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.container_chile #red_container{
+    background-color: rgb(240,50,50);
+    position: absolute;
+    width: 600px;
+    height: 200px;
+    bottom: 0;
+}
+
+/* :end */
+
+
+/* Flag of Kuwait */
+
+
+
+.left_part_kuwait{
+    height: 100px;
+     border-top: 100px solid transparent;
+     border-bottom: 100px solid transparent;
+     border-left: 70px solid black;
+     width: 0;
+     float: right;
+     
+     margin-left: 150px;
+}
+.right_part_kuwait{
+ background-color: blanchedalmond;
+ width: 400px;
+ height: 300px;
+ margin-left: 330px;
+ 
+}
+.right_part_kuwait #h{
+     background-color: green;
+     height: 100px;
+     width: 400px;
+}
+.right_part_kuwait #h2{
+ background-color: white;
+ height: 100px;
+ width: 400px;
+}
+.right_part_kuwait #h3{
+ background-color: rgb(240,50,50);
+ height: 100px;
+ width: 400px;
+}
+.container_kuwait{
+ padding-left: 200px;
+ margin-left: 200px;
+}
+/* end */
+
+/* flag of somalia */
+
+.container_somalia{
+    height: 400px;
+    width: 400px;
+    background-color:lightblue;
+    margin-left: 300px;
+  
+}
+.container_somalia div {
+    font-size: 200px;
+    color: white;
+    position: relative;
+    top: 100px;
+    left: 150px;
+}
+
+/* end */
