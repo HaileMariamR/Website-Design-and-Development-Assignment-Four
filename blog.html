@@ -26,74 +26,80 @@
    </header>
    <div id="content">
        <section>
-        <p class="title">my first post</p>
+        <p class="title">Effect of Measurement uints on Html element</p>
         <article>
             <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-             Placeat eaque accusantium autem ut architecto, accusamus, 
-            illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-            <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                 Placeat eaque accusantium autem ut architecto, accusamus, 
-                illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Placeat eaque accusantium autem ut architecto, accusamus, 
-                    illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Placeat eaque accusantium autem ut architecto, accusamus, 
-                        illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
+                The length CSS data type represents a distance value. Lengths can be used in many CSS properties, such as width, height, margin, padding, border-width, font-size and so on.
+                There are mainly two types of Measurement uints. those are relative and absolute length unit.lets see each one by one, before gonna to 
+                the effect on responsive ness of the html elemnt on diffrent mediums(devices). <br>
+                <strong>Relative  unit Measurement</strong>: In this type of units the Measurement represent interms of the other distance i.e Font size of the parent container, length of view port of the actual devices.
+                again, if we want represent a length interms of fontsize of the parent, we can use like em , rem , ex .... and if we want in viewport ,we can use vh , vw , vmin... instead. <br>
+                <strong>absolute unit Measurement</strong> : In this type of units the actual Measurement will represents with out considering the actual devices we use. i.e if we represent 10cm or 200px , when we it will represet as we write with out responsiveness. <br>
+                Now, let's back on the effect of those on responsive. the responsiveness of the html element is on the hand of the two Measurement units. because as i said earlier when we represent the length of the html element in relative unit it will responsive, since it 
+                will use the parents  properties regaring the viewport of the device. when we use absolute unit we can't get responsive website due to screen size of the devices.
+                In conculsion, the use of relative and absolute Measurement units matter on the responsiveness of the website.
+
+
+                
+
+            </p>
         </article>
-        <p class="date">march 13 , 2020 : 3:00 AM</p>
+        <p class="date">march 15, 2020 : 2:10 PM</p>
         
         </section>
 
         <section>
-            <p class="title">my second post</p>
+            <p class="title">Default  Browser Font-size and it's Interpretaion</p>
             <article>
                 <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                 Placeat eaque accusantium autem ut architecto, accusamus, 
-                illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Placeat eaque accusantium autem ut architecto, accusamus, 
-                    illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Placeat eaque accusantium autem ut architecto, accusamus, 
-                        illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Placeat eaque accusantium autem ut architecto, accusamus, 
-                            illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
+                    The font size or text size is how large the characters displayed on a screen(which is browsers)or printed on a page are.
+                    if we are gonna to change the font-size of the Default fontsize of the html we can use fontsize of the css propertie.
+                    sicne Font-size is css propertie. but till we specified the fontsize of the html root element the defualt value is 16px. <br>
+ 
+                    lets see it's Interpretaion, if we assign the fontsize, width , height.....of html element like 200px, the browser will Interprete it as follow.
+                    16px=100% , so what is 200px in termes of percent then again recaluclated it by 16px. <br>
+                     again let's back our question 200px mean 200*100%/16.
+
+
+                    
+              </p>
             </article>
-            <p class="date">march 13 , 2020 : 3:00 AM</p>
+            <p class="date">march 15 , 2020 : 2:50 PM</p>
 
             
             </section>
             <section>
-                <p class="title">my third post</p>
+                <p class="title">Specific Changes on CSS3</p>
                 <article>
-                    <p>
-                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                     Placeat eaque accusantium autem ut architecto, accusamus, 
-                    illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                    <p>
-                        Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                         Placeat eaque accusantium autem ut architecto, accusamus, 
-                        illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                        <p>
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                             Placeat eaque accusantium autem ut architecto, accusamus, 
-                            illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
-                            <p>
-                                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-                                 Placeat eaque accusantium autem ut architecto, accusamus, 
-                                illo quas obcaecati, eius ipsa in delectus nihil sunt.</p>
+                 <p>
+                    CSS3 is the latest version of CSS that has been published since 2005. CSS3 has a bunch of new  features like rounded corners, shadows, gradients, transitions or animations, as well as new types of layouts like multi-columns, Flex box or grid layouts. 
+                    It contains everything from the previous version (CSS). <br> lets see some features in detail. <br>
+                    <strong>rounded corners</strong>Before the release of CSS3, developers had to write long code to produce rounded corners. Now, it is enough to apply the border-radius CSS3 property to HTML elements. <br>
+                    <strong>selectors</strong>in addition to well known selectors, in css3 there are some selectors, those are: <br>
+                    <em>Attribute selector</em> These selectors allow to apply one determined formatting to certain elements based on the value of one attribute. it's syntax is Element[attribute="value"] <br>
+                    <em>Postion selectors</em>These selectors work based on the position of the element in the document or in the control that contains it (parent element).
+                    it's syntax is :element
+                    <strong>gradients</strong> in this version we can achive the gradient of the background as an image by this syntax background:Lineargradient(postion,values in order) <br>
+                    <strong>Animations and transitions</strong> the most intersting part of this version is those properties. by using those properties we can do greate animation just like as we achived by javascript or some other method.
+                    <em>Animation</em> it have many properties for acheving what we want like, animation duration , animation direction , animation name (to connect specific html element).
+                    <br>
+                    <em>Transformation</em> THis hava many values like rotate , translate, scale in both 2d and 3d
+                    
+
+
+
+
+                
+
+
+                    
+    
+
+                    
+
+                 </p>
                 </article>
-                <p class="date">march 13 , 2020 : 3:00 AM</p>
+                <p class="date">march 15 , 2020 : 4:00 PM</p>
                 
                 </section>
 
