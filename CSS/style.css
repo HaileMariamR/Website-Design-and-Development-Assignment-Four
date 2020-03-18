@@ -1,3 +1,12 @@
+body{
+    background-color: rgba(123, 234,256, 1.05);
+}
+
+
+
+
+
+
 
 header{
     
@@ -83,9 +92,19 @@ nav > ul > li>a:visited{
 
 /* Home page */
 
+@media screen and (max-width:450px){
+    .nav_container > ul{
+        flex-direction: column;
+        
+    }
+    .nav_container{
+        height: 100vw;
+        background-color: rgb(50, 45, 55);
+    }
+}
 .nav_container{
     width: 100%;
-    height: 10vh;
+    height: 10%;
     display: flex;
     background-color:rgb(56, 78, 123);
     position: absolute;
@@ -120,7 +139,6 @@ nav > ul > li>a:visited{
     display: flex;
     margin-top: 4vh;
     margin-left: 25%;
-  
     align-items: center;
     justify-content: center;
 
@@ -130,7 +148,8 @@ nav > ul > li>a:visited{
     width: 100%;
     background-color: rgba(119, 90, 90,0.8);
     position: relative;
-    top: 67vh;
+    top: 70vh;
+    left: 0;
     border-top: 2px solid black;
     
 }
@@ -139,7 +158,8 @@ nav > ul > li>a:visited{
     width: 100%;
     background-color: rgba(119, 90, 90,0.8);
     position: absolute;
-    top:150vh;
+    top:163vh;
+    left: 0;
     border-top: 2px solid black;
     
 }
@@ -297,16 +317,30 @@ input{
     
 }
 .container_hi div{
-  
-margin-right: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+margin-right: 5vw;
+margin-left: 0;
+background-color: tomato;
+height: 30vh;
+
+    border: turquoise 5px solid;
 }
 
-
+.container_hi div:hover{
+    transform: rotate(15deg);
+    
+}
+li{
+    list-style: none;
+    padding:;
+}
 
 .skill_container{
     width: 100%;
     height: 40vh;
-   
     position: absolute;
     top:70vh ;
     background-color:wheat;
@@ -329,7 +363,6 @@ margin-right: 10vw;
 
 @keyframes slider{
     0%{margin-top: -27vh;}
-    10%{margin-top: -27vh;}
     20%{margin-top: -15vh;}
     30%{margin-top: -15vh;}
     40%{margin-top: 0vh;}
@@ -337,7 +370,6 @@ margin-right: 10vw;
     60%{margin-top: 15vh;}
     70%{margin-top: 15vh;}
     80%{margin-top: 27vh;}
-    90%{margin-top: 27vh;}
     100%{margin-top: 27vh;}
 
 }
