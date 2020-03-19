@@ -13,10 +13,23 @@
         body{
             background-color: cyan;
         }
+        .back{
+            width: 70px;
+            height: 30px;
+            background-color: red;
+            position: fixed;
+            right: 10px;
+            bottom: 10px;
+            z-index: 1;
+        }
 
     </style>
 </head>
 <body>
+
+    <div class="back">
+        <a href="#c">back</a>
+    </div>
     <nav>
         <div class="nav_container">
             <ul>
@@ -29,7 +42,7 @@
         </div>
     </nav>
     
-    <div style="position: absolute;top: 5vw;left: 36vw;">
+    <div id="c" style="position: absolute;top: 5vw;left: 36vw;">
         <h2>Hailemariam F./Gallary</h2>
     </div>
     <div class="con">

@@ -93,14 +93,7 @@ nav > ul > li>a:visited{
 /* Home page */
 
 @media screen and (max-width:450px){
-    .nav_container > ul{
-        flex-direction: column;
-        
-    }
-    .nav_container{
-        height: 100vw;
-        background-color: rgb(50, 45, 55);
-    }
+    
 }
 .nav_container{
     width: 100%;
@@ -205,8 +198,6 @@ nav > ul > li>a:visited{
     background-color: rgba(119, 90, 90,0.8);
     border-radius: 3vh;
 
-
-
 }
 
 .social-media a{
@@ -290,6 +281,7 @@ input{
 }
 .profile_container{
     background-color: wheat;
+
 }
 .profile_container #image_container{
     position: relative;
@@ -378,3 +370,56 @@ li{
     animation-duration: 10s;
     animation-iteration-count: infinite;
 }
+
+
+
+
+@media (max-width:700px){
+  
+        
+}
+.nav_container_h{
+    width: 100%;
+    height: 3em;
+    display: flex;
+     background-color:rgb(56, 78, 123); 
+    position: relative;
+    margin-top:-10px ;
+    top: 0;
+    left: 0;
+    border-bottom: 2px solid black;
+}
+
+.nav_container_h > ul li{
+    list-style: none;
+    padding: 2.5vw;
+    margin-top: 0;
+    margin-bottom: 10px;
+   
+
+}
+.nav_container_h > ul li:hover{
+    background-color:rgb(50, 45, 55);
+    transform: translatey(2.5vw);
+    
+}
+.nav_container_h > ul li:hover a{
+    color: deeppink;
+    font-size: 2vw;
+    font-style:italic;
+}
+.nav_container_h ul li > a {
+    text-decoration: none;
+    color: white;
+    
+}
+.nav_container_h > ul{
+    display: flex;
+    margin-top: 4vh;
+    padding-left: 330px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+

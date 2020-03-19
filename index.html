@@ -3,101 +3,320 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home &nbsp; | &nbsp; My curriculum vitae</title>
-    <link rel="icon" href="assets/Images/mylog.svg" type="image/x-icon">
-    <meta name="description" content="My name is Hailemariam Fikadie,I am a software
-    engineering student at addis ababa unvirsity. you can get any informarion 
-    regarding about me here.">
-    <link rel="stylesheet" href="./CSS/style.css">
-    <style>
-        @media screen and (max-width:400px ) {
-            .container_hi{
+    <title>Document</title>
+        <style>
+            .nav_container_hh{
+                background-color: rgb(56, 78, 123);
+                height: 40px;
+                position: relative;
+                top: -40px;
+                left: -20px;
+                width: 100%;
+                padding-right: 40px;
+                
+                padding-bottom: 40px;
+
+                border-bottom: 2px solid black;
+            }
+            .nav_container_hh ul{
+                display: flex;
+
+                padding-top: 10px ;
+                margin-left: 250px;
+            }
+            .nav_container_hh ul li{
+                list-style: none;
+                margin-left: 30px;
+                padding: 2.5vw;
+
+            }
+            .nav_container_hh ul li a{
+                color: white;
+                text-decoration: none;
+            }
+            .nav_container_hh ul li{
+                list-style: none;
+                margin-bottom: 10px;
+            
+             }
+            .nav_container_hh  ul li:hover{
+                background-color:rgb(50, 45, 55);
+                transform: translatey(2.5vw);
+
+              }
+            .nav_container_hh  ul li:hover a{
+                color: deeppink;
+                font-size: 2vw;
+                font-style:italic;
+            }
+            @media (max-width: 500px){
+                .nav_container_hh{
+                background-color: rgb(56, 78, 123);
+                height: 250px;
+                position: relative;
+                top: -20px;
+                left: -10px;
+            }
+            .nav_container_hh ul{
+                display: flex;
                 flex-direction: column;
+                padding-top: 10px ;
+                margin-left: 120px;
             }
-            .footer_container_home{
-                top: 185vh;
+            .nav_container_hh ul li{
+                list-style: none;
+                margin-bottom: 10px;
+            
+
+             }
+            .nav_container_hh  ul li:hover{
+                background-color:rgb(50, 45, 55);
+                transform: translatey(2.5vw);
+                z-index: 1;
+
+              }
+            .nav_container_hh  ul li:hover a{
+                color: deeppink;
+                font-size: 2vw;
+                font-style:italic;
             }
+
+
+                .p_con{
+                    display: flex;
+                    background-color: wheat;
+                    flex-direction: column;
+                    padding: 10px 10px 20px 10px ;
+                    margin-top: ;
+                    
+                }
+                .p_con div{
+                  margin-left: 1px;
+                  
+                 }
+
+                 .p_cn{
+          
+                width: 400px;
+                overflow: hidden;
+                 }
+
+                 .skill_container{
+                width: 100%;
+                height: 10vh;
+                position: relative;
+                padding-left: 30px;
+                margin-left: -30px;
+                background-color:wheat;
+            }   
+
+
+            .container_hi{
+                display: flex;
+                
+                flex-direction: column;
+                
+            }
+            .sport_container{
+                margin-left: 0;
+            }   
+            .container_hi div{
+                margin-top: 60px;
+                display: flex;
+                flex-direction: column;
+                 align-items: center;
+                
+                 margin-left: 0;
+                 background-color: tomato;
+                height: 300px;
+                 border: turquoise 5px solid;
+                 margin-right: 100px;
+                 padding: 70px 100px;
+                 margin-left: 100px;
+            }
+            .social-media{
+            position: absolute;
+            margin-left: 100px;
+            margin-top: 5px;
+            left: 0;
+            top: 0;
+            
         }
-    </style>
+        .footer_container_home{
+                height:100vh;
+                width: 100%;
+                background-color: rgba(119, 90, 90,0.8);
+               
+                top: 5vw;
+                left: 0;
+                border-top: 2px solid black;
+
+        }
+        .copyright{
+            color:black;
+            position: relative;
+            left: 40vw;
+
+        }
+
+            }
+
+
+           
+
+         .p_con{
+             display: flex;
+             background-color: wheat;
+             margin-top: -40px;
+            margin-left: -20px;
+             padding: 70px 50px 20px 20px ;
+             
+             
+         }
+         .p_im img{
+             border-radius: 50%;
+            
+            
+         }
+         .p_con div{
+             margin-right: 200px;
+         }
+         
+         .p_cn{
+            
+             width: 490px;
+         }
+         .p_im{
+             padding-left: 100px;
+           
+         }
+
+        .skill_container{
+            width: 100%;
+            height: 40vh;
+            position: relative;
+            padding-top: 30px;
+            margin-top: -30px;
+            padding-left: 30px;
+            margin-left: -30px;
+            background-color:wheat;
+        }
+        .animation_container{
+            width: 50vh;
+            height:5vh;
+        background-color: white;
+            margin-left: 32vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .animation_container div{
+            font-size: 4vh;
+            padding: 1vh ;
+        }
+
+        @keyframes slider{
+            0%{margin-top: -27vh;}
+            20%{margin-top: -15vh;}
+            30%{margin-top: -15vh;}
+            40%{margin-top: 0vh;}
+            50%{margin-top: 0vh;}
+            60%{margin-top: 15vh;}
+            70%{margin-top: 15vh;}
+            80%{margin-top: 27vh;}
+            100%{margin-top: 27vh;}
+
+        }
+        #android-c{
+            animation-name: slider;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+        }
+
+        .container_hi{
+            display: flex;
+            
+            
+            
+        }
+                
+        .container_hi div{
+            margin-top: 60px;
+            display: flex;
+            flex-direction: column;
+                align-items: center;
+            
+                margin-left: 0;
+                background-color: tomato;
+            height: 300px;
+                border: turquoise 5px solid;
+                margin-right: 100px;
+                padding: 70px 100px;
+        }
+        
+
+        li{
+            list-style: none;
+        }
+
+        .footer_container_home{
+                height:12vh;
+                width: 100%;
+                background-color: rgba(119, 90, 90,0.8);
+                position: relative;
+                left: 0;
+                border-top: 2px solid black;
+
+        }
+
+        .social-media{
+            position: relative;
+            margin-top: 5px;
+            
+        }
+        .social-media a > img {
+            background-color: rgba(119, 90, 90,0.8);
+            border-radius: 3vh;
+
+        }
+
+        .social-media a{
+            margin-left: 1vw;
+        }
+        .social-media a:hover img{
+            transform: scale(1.5);
+        }
+
+        .copyright{
+            color:black;
+            position: relative;
+            left: 250px;
+            
+        }
+
+        </style>
 </head>
 <body>
-    
-        <nav>
-            <div class="nav_container">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Contact.html">Contacts</a></li>
-                    <li><a href="gallary.html">Gallary</a></li>
-                    <li><a href="myworks.html">Myworks</a></li>
-                    <li><a href="blog.html">Bolg</a></li>
-                </ul>
-            </div>
-        </nav>
 
-
-
-
-        <div class="skill_container">
-            <h2 style="margin-left: 40%;color:black;">My Skills</h2>
-            <div class="animation_container">
-                <div id="android-c" style="color: green;">Android development</div>
-                
-                <div style="color: blue;">Java programming</div>
-                <div style="color:crimson;">Python programming</div>
-                <div style="color:cornflowerblue;">SQL</div>
-                <div style="color: rgb(34, 24, 26);">Web Design and development</div>
-
-
-            </div>
+    <nav>
+        <div class="nav_container_hh">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="Contact.html">Contacts</a></li>
+                <li><a href="gallary.html">Gallary</a></li>
+                <li><a href="myworks.html">Myworks</a></li>
+                <li><a href="blog.html">Bolg</a></li>
+            </ul>
         </div>
+    </nav>
 
-        <div class="Hobbies_container">
-            <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;color: blueviolet; margin-left: 30vw;margin-top: 4vh;background-color:;">List of Hobbies and Intersets</h1>
-            <div class="container_hi">
-                
-                <div class="sport_container" style="margin-left: 25%;height: 40vh; width: 20%;">
-                    <h2 style="color: cyan;">Sport</h2>
-                    <ul>
-                        <li>
-                            <ul> <br>
-                                <li>Football</li>
-                                <li>Vollyball</li>
-                                <li>cycling</li>
-                                <li>Tennis</li>
-                            </ul>
-                        </li>
-                </div>
-                <div class="reading_container" style="width: 20%; height: 40vh;">
-                    <h2 style="color: cyan;">Reading</h2>
-                    <ul>
-                        <li>
-                            <ul> 
-                                <li>Fiction
-                                    <ul>
-                                        
-                                        <li>Fiker eske mekabe</li>
-                                        <li>Derto gada</li>
-                                        <li>kebur dengay</li>
-                                        
-                                    </ul>
-                                </li>
-                                <li>News papers</li>
-                                <li>Educational books</li>
-                            </ul>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-
-        </div>
-
-
-
-    <div class="profile_container">
-        <div id="image_container">
+    <div class="p_con">
+        <div class="p_im">
             <img src="./assets/Images/Vsimage.jpg" alt="">
         </div>
-        <div id="content_container">
+        <div class="p_cn">
             <h1>Hailemariam Fikadie</h1>
             <h2>Student, Addis Ababa Institute of Technology</h2>
             <p>My name is Hailemariam Fikadie,I'm from Ethiopia, Currently I'm a student at Addis Ababa University.
@@ -105,34 +324,84 @@
                 python,php, java,sql , in mobile application development and  in web Technologys.
             </p>
         </div>
+    </div>
 
+
+    <div class="skill_container">
+        <h2 style="margin-left: 40%;color:black;">My Skills</h2>
+        <div class="animation_container">
+            <div id="android-c" style="color: green;">Android development</div>
+            
+            <div style="color: blue;">Java programming</div>
+            <div style="color:crimson;">Python programming</div>
+            <div style="color:cornflowerblue;">SQL</div>
+            <div style="color: rgb(34, 24, 26);">Web Design and development</div>
+
+
+        </div>
     </div>
 
 
 
-
-
-
-
-
-
-
-     <footer>
-         
-         <div class="footer_container_home">
-             <div class="social-media">
-            <a href="https://twitter.com/home"><img src="assets/Images/twittericon.png" alt="twitter icon"> </a>
-            <a href="https://www.instagram.com/haile_mu/"><img src="assets/Images/instagramicon.png" alt="Instagram icon"></a>
-            <a href="https://www.facebook.com/haile.yemaram?ref=bookmarks"><img src="assets/Images/facebookicon.png" alt="facebook icon"></a>
-            <a href="https://www.linkedin.com/in/hailemariam-fikadie-b58967196/"><img src="assets/Images/linkedinicon.png" alt="Linkedin Icon"></a>
-            <a href="https://t.me/[@m_u2t5]"><img src="assets/Images/telegramicon.png" alt="telegram icon"></a>
+    <div class="Hobbies_container">
+        <h1 style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;font-size: 20px;color: blueviolet; margin-left: 30vw;margin-top: 4vh;background-color:;">List of Hobbies and Intersets</h1>
+        <div class="container_hi">
+            
+            <div class="sport_container" style="margin-left: 15%; height: ; width: 20%;">
+                <h2 style="color: cyan;">Sport</h2>
+                <ul>
+                    <li>
+                        <ul> <br>
+                            <li>Football</li>
+                            <li>Vollyball</li>
+                            <li>cycling</li>
+                            <li>Tennis</li>
+                        </ul>
+                    </li>
             </div>
-
-            <div class="copyright">
-                &copy;2020 Hailemariam F.
+            <div class="reading_container" style="margin-left: 15%; width: 20%; height: ;">
+                <h2 style="color: cyan;">Reading</h2>
+                <ul>
+                    <li>
+                        <ul> 
+                            <li>Fiction
+                                <ul>
+                                    
+                                    <li>Fiker eske mekabe</li>
+                                    <li>Derto gada</li>
+                                    <li>kebur dengay</li>
+                                    
+                                </ul>
+                            </li>
+                            <li>News papers</li>
+                            <li>Educational books</li>
+                        </ul>
+                    </li>
+                </ul>
             </div>
         </div>
 
-    </footer>
+    </div>
+    
+
+
+    <footer>
+         
+        <div class="footer_container_home">
+            <div class="social-media">
+           <a href="https://twitter.com/home"><img src="assets/Images/twittericon.png" alt="twitter icon"> </a>
+           <a href="https://www.instagram.com/haile_mu/"><img src="assets/Images/instagramicon.png" alt="Instagram icon"></a>
+           <a href="https://www.facebook.com/haile.yemaram?ref=bookmarks"><img src="assets/Images/facebookicon.png" alt="facebook icon"></a>
+           <a href="https://www.linkedin.com/in/hailemariam-fikadie-b58967196/"><img src="assets/Images/linkedinicon.png" alt="Linkedin Icon"></a>
+           <a href="https://t.me/[@m_u2t5]"><img src="assets/Images/telegramicon.png" alt="telegram icon"></a>
+           </div>
+
+           <div class="copyright">
+               &copy;2020 Hailemariam F.
+           </div>
+       </div>
+
+   </footer>
+
 </body>
 </html>
